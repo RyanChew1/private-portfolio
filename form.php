@@ -41,7 +41,7 @@ if (!empty($_POST)) {
        $mail->Username = 'your_smtp_username';
        $mail->Password = 'your_smtp_password';
        $mail->SMTPSecure = 'tls';
-       $mail->Port = 5500;
+       $mail->Port = 2525;
        $mail->setFrom($email, 'Mailtrap Website');
        $mail->addAddress('chewryan0@gmail.com', 'Me');
        $mail->Subject = 'New message from your website';
